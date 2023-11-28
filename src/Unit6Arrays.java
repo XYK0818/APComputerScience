@@ -43,10 +43,10 @@ public class Unit6Arrays {
             System.out.println(names[i]);
         }
 
-        int j = 0;
-        while (j < cities.length){
-            System.out.println(cities[j]);
-            j++;
+        int jj = 0;
+        while (jj < cities.length){
+            System.out.println(cities[jj]);
+            jj++;
         }
 
 //        6.3 enhanced for loop. when order does not matter
@@ -141,6 +141,43 @@ public class Unit6Arrays {
         }
         for(String food: foods){
             System.out.print(food + ",");
+        }
+
+
+        String[] s = new String[2];
+        String[] t = {"Michael", "Megan", "Chelsea"};
+        s = t;
+        System.out.println(s.length);
+
+        final int[] myArray = {1, 2};
+        myArray[1] = 3;
+        System.out.println(myArray[1]);
+
+
+        int [] scores1 = {75, 63, 52, 80};
+        for (int s1 : scores1)
+        {
+            if (s1 < 75)
+            {
+                s1 += 5;
+            }
+            System.out.print(s1 + " ");
+        }
+        System.out.println(" ");
+        for (int s1:scores1){
+            System.out.print(s1 + " ");
+        }
+
+
+        String[]StudentNames = {"bob", "obo", "ava", "vav", "isi"};
+        for(int i = 0; i < StudentNames.length; i++) {
+            String temp = StudentNames[i];
+            for (int j = 0; j < temp.length(); j++) {
+                if (temp.contains("b")){
+                    System.out.println(StudentNames[i]);
+                    break;
+                }
+            }
         }
 
     }

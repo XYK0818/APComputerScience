@@ -71,6 +71,7 @@ public class Unit7ArrayList {
 //        7.6 Sorting
         averages.sort(Comparator.naturalOrder());
         System.out.println(Arrays.toString(averages.toArray()));
+        System.out.println(averages);
 
     }
 }
