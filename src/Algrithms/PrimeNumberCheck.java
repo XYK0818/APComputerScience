@@ -1,3 +1,5 @@
+package Algrithms;
+
 import java.util.Random;
 
 public class PrimeNumberCheck {

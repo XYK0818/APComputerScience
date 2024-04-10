@@ -1,3 +1,5 @@
+package CSABasics;
+
 public class Dog {
 //    2.1 class, class variables and class constructor
     private String name = ""; // private means any code outside this class can't access this variable

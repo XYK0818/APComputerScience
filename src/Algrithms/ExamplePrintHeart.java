@@ -1,3 +1,5 @@
+package Algrithms;
+
 public class ExamplePrintHeart {
 //    main() method start
     public static void main(String[] args)

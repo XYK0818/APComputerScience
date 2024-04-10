@@ -1,3 +1,5 @@
+package CSABasics;
+
 import static java.lang.Math.ceil;
 
 public class Unit1PrimitiveDataTypes {// file name has to be the same as class name

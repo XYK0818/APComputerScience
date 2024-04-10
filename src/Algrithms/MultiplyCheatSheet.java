@@ -1,3 +1,5 @@
+package Algrithms;
+
 public class MultiplyCheatSheet {
 
     public static void main(String[] args) {

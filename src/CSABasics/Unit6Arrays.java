@@ -1,3 +1,5 @@
+package CSABasics;
+
 public class Unit6Arrays {
 
     public static void main(String[] args) {
